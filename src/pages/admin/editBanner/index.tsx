@@ -1,9 +1,12 @@
+import { DropDown } from "@/presentation/components/utils/Dropdown";
+
 const EditBanner: React.FC = () => {
   return (
-    <div>
-      <h1>editBanner</h1>
-    </div>
+    <DropDown 
+      title_dropdown="Banner" 
+      is_multiple_image
+    />
   );
-}
+};
 
 export default EditBanner;

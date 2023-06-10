@@ -1,8 +1,12 @@
+import { DropdownProduct } from "@/presentation/components/utils/Dropdown";
+
 const EditProduct: React.FC = () => {
   return (
-    <div>
-      <h1>editProduct</h1>
-    </div>
+    <DropdownProduct 
+      title_dropdown="Product"
+      is_cover_image
+      is_multiple_image
+    />
   );
 }
 
